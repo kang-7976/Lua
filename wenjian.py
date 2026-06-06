@@ -72,4 +72,5 @@ if __name__ == "__main__":
             print(f"{i}. {path}")
     else:
         print("\n😭 翻遍了整个手机，也没找到相关文件。")
+#共创 kang-7976,chatGPT
 
