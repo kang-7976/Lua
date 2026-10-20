@@ -34,7 +34,6 @@ end)
 local _, co_res1 = coroutine.resume(co)
 local _, co_res2 = coroutine.resume(co)
 
--- 仅两处print，最大限度减少通用关键词
 print("协程结果1:" .. co_res1)
 print("协程结果2:" .. co_res2)
 
