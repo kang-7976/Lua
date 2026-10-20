@@ -1,4 +1,3 @@
--- 高纯度Lua专属代码，极少print，全是Lua独有的特性
 local tbl = {name = "Lua专属测试表", data = {10, 20, 30}}
 
 -- Lua独有的for in pairs迭代器
