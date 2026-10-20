@@ -17,7 +17,6 @@ local mt = {
 }
 setmetatable(tbl, mt)
 
--- Lua独有的可变参数 ...
 local function sum(...)
     local total = 0
     for _, num in ipairs{...} do
