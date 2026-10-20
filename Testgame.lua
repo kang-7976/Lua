@@ -36,8 +36,6 @@ local _, co_res2 = coroutine.resume(co)
 
 print("协程结果1:" .. co_res1)
 print("协程结果2:" .. co_res2)
-
--- Lua独有的闭包
 local function outer(x)
     return function(y)
         return x * y
